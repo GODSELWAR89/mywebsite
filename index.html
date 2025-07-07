@@ -5,81 +5,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marathi Warrior</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
-      background-color: #000000;
+      background-color: #000;
       color: #00FF00;
       font-family: 'Courier New', Courier, monospace;
       padding: 20px;
     }
-    header {
-      text-align: center;
-      margin-bottom: 30px;
-    }
     header h1 {
-      font-size: 2.8rem;
+      text-align: center;
       text-shadow: 0 0 10px #00FF00;
+    }
+    nav a {
+      margin-right: 15px;
+      color: #00FFCC;
+      text-decoration: none;
+      font-weight: bold;
     }
     .section {
       background-color: #111;
-      padding: 15px;
+      margin-top: 30px;
+      padding: 20px;
       border-left: 4px solid #00FF00;
-      margin-bottom: 20px;
       border-radius: 4px;
     }
     h2 {
       color: #00FF99;
-      margin-bottom: 10px;
     }
     ul {
       padding-left: 20px;
     }
     footer {
-      margin-top: 30px;
+      margin-top: 40px;
       text-align: center;
       font-size: 0.9rem;
-      color: #888;
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
+      color: #666;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>👨‍💻 Marathi Warrior</h1>
-    <p>तंत्रज्ञान + हॅकिंग = शक्ती</p>
+    <nav>
+      <a href="#hacking">Ethical Hacking Basics</a>
+      <a href="#tools">Tools</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <div class="section">
-    <h2>📚 काय शिकाल?</h2>
+  <div id="hacking" class="section">
+    <h2>💻 Ethical Hacking Basics</h2>
+    <p>Ethical hacking म्हणजे काय?  
+    एखाद्या सिस्टम मधील कमकुवत गोष्टी (vulnerabilities) शोधून त्या सुधारण्यासाठी काम करणं.</p>
     <ul>
-      <li>Ethical Hacking Basics</li>
-      <li>Cyber Security Guide</li>
-      <li>Top Tools: Kali Linux, Nmap</li>
-      <li>Dark Web Info</li>
+      <li>Types of Hackers: White Hat, Black Hat, Grey Hat</li>
+      <li>Phases of Ethical Hacking: Reconnaissance, Scanning, Gaining Access, Maintaining Access, Clearing Tracks</li>
+      <li>Legal and Safe Hacking Practices</li>
     </ul>
   </div>
 
-  <div class="section">
-    <h2>🚀 माझं ध्येय</h2>
-    <p>मराठी लोकांपर्यंत हॅकिंगचं आणि सायबर सिक्युरिटीचं ज्ञान पोहचवणं.</p>
+  <div id="tools" class="section">
+    <h2>🧰 Tools You’ll Learn</h2>
+    <ul>
+      <li>Kali Linux</li>
+      <li>Nmap</li>
+      <li>Wireshark</li>
+      <li>Burp Suite</li>
+    </ul>
   </div>
 
-  <div class="section">
+  <div id="contact" class="section">
     <h2>📞 संपर्क करा</h2>
-    <p>Email: godselwar89@gmail.com</p>
-    <p>Instagram: @godselwar89</p>
+   
+    <p>Instagram: @godselwarnamdev</p>
   </div>
 
   <footer>
     © 2025 Marathi Warrior. All rights reserved.
   </footer>
+
 </body>
 </html>
